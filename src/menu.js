@@ -1,6 +1,5 @@
-import breadImg from "./images/bread.jpg";
 import burgerImg from "./images/burger.jpg";
-import friesImg from "./images/fries.jpg";
+import breadImg from "./images/bread.jpg";
 
 const cards = [
   {
@@ -9,13 +8,6 @@ const cards = [
       "A burger is a patty of ground beef grilled and placed between two halves of a bun.",
     img: burgerImg,
     price: "3$",
-  },
-  {
-    name: "Fries",
-    description:
-      "French fries, side dish or snack typically made from deep-fried potatoes that have been cut into various shapes, especially thin strips.",
-    img: friesImg,
-    price: "1.50$",
   },
   {
     name: "Bread",

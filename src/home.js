@@ -1,5 +1,7 @@
 function home() {
   const content = document.getElementById("content");
+  content.textContent = "";
+
   const container = document.createElement("div");
   container.id = "containerDiv";
   content.appendChild(container);
