@@ -36,19 +36,23 @@ function menu() {
     imgWrapper.appendChild(itemImg);
     div.appendChild(imgWrapper);
 
+    const menuData = document.createElement("div");
+    menuData.id = "menuData";
+    div.appendChild(menuData);
+
     const itemName = document.createElement("h3");
     itemName.textContent = menuItem.name;
     itemName.classList.add("item-name");
-    div.appendChild(itemName);
+    menuData.appendChild(itemName);
 
     const itemDescription = document.createElement("p");
     itemDescription.textContent = menuItem.description;
     itemDescription.classList.add("description");
-    div.appendChild(itemDescription);
+    menuData.appendChild(itemDescription);
 
     const itemPrice = document.createElement("p");
     itemPrice.textContent = menuItem.price;
-    div.appendChild(itemPrice);
+    menuData.appendChild(itemPrice);
 
     wrapper.appendChild(div);
   }
