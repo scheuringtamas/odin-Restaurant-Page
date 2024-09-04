@@ -32,3 +32,7 @@ dist;
 - Recall that the source branch for GitHub Pages is set in your repository’s settings. Get this changed to the `gh-pages` branch.
 
 ## Screenshots
+
+<img src="https://github.com/scheuringtamas/odin-Restaurant-Page/blob/main/screenshots/Restaurant_Page_1.png" />
+<img src="https://github.com/scheuringtamas/odin-Restaurant-Page/blob/main/screenshots/Restaurant_Page_2.png" />
+<img src="https://github.com/scheuringtamas/odin-Restaurant-Page/blob/main/screenshots/Restaurant_Page_3.png" />
